@@ -1,0 +1,113 @@
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: #b2ccd6;
+}
+
+table {
+  border-collapse: collapse;
+  width: 590px;
+  border: 1px solid #d1dfe6;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #d1dfe6;
+  background-color: white;
+}
+tr,
+td {
+  border: none;
+  border-bottom: 1px solid #d1dfe6;
+  font-size: 13px;
+}
+thead td {
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+.main {
+  height: 400px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  margin-top: 50px;
+}
+.title p {
+  color: #345679;
+  font-size: 22px;
+  font-weight: 400;
+}
+.camera {
+  height: 80px;
+  width: 90px;
+  float: left;
+  margin-left: 10px;
+}
+tbody tr {
+  height: 80px;
+}
+.FE-top {
+  padding-top: 15px;
+  margin-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.FE-bottom {
+  padding-top: 5px;
+  color: #b5c7cd;
+}
+.FE {
+  width: 220px;
+  margin-left: 110px;
+}
+.num {
+  color: #c1cfd5;
+  text-align: right;
+}
+.total {
+  color: #3e5a7c;
+  font-weight: 600;
+}
+thead td {
+  color: #a5b4c4;
+}
+.one {
+  width: 320px;
+}
+.two {
+  width: 70px;
+}
+.three {
+  width: 90px;
+  text-align: right;
+}
+.four {
+  width: 105px;
+  text-align: right;
+  padding-right: 20px;
+}
+.th-td {
+  height: 75px;
+}
+.tail {
+  color: #7392a8;
+  text-decoration: underline;
+  float: left;
+}
+button {
+  width: 225px;
+  height: 55px;
+  background-color: #243f79;
+  color: #6d829d;
+  border-radius: 5px;
+  margin-left: 193px;
+  margin-top: 10px;
+}
+.main-bottom {
+  margin-top: 15px;
+}
