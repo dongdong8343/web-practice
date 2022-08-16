@@ -1,3 +1,3 @@
 # Web practice
 
-CSS got so much better!
+Html, css are so much fun
