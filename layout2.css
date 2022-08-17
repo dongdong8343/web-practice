@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Courier New";
+  src: url();
+}
+
 div,
 input,
 textarea {
@@ -110,4 +115,31 @@ button {
 }
 .main-bottom {
   margin-top: 15px;
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  font-family: "DynaPuff", cursive;
+}
+.nav-fir {
+  flex-grow: 1;
+  font-size: 25px;
+}
+.nav-sec {
+  flex-grow: 1.5;
+}
+.nav-thi {
+  flex-grow: 0.05;
+  display: inline-block;
+  display: flex;
+}
+.nav-pro {
+  width: 95px;
+}
+.nav-fir p {
+  margin: 0;
+  margin-left: 15px;
+  line-height: 50px;
 }
