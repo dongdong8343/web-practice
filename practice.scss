@@ -1,0 +1,24 @@
+@use "reset";
+
+@mixin col-($num) {
+  width: 100%/ (12 / $num);
+  height: 100%;
+}
+@mixin row {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+.row {
+  @include row;
+  .col-6 {
+    @include col-(6);
+  }
+}
+
+.row {
+  @include row;
+  .col-4 {
+    @include col-(4);
+  }
+}
